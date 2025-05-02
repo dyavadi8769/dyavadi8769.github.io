@@ -2,6 +2,7 @@ const content_dir = 'contents/';
 const config_file = 'config.yml';
 const section_names = ['Introduction', 'Methodology', 'Experiments', 'Results', 'Resources', 'Team'];
 
+
 window.addEventListener('DOMContentLoaded', event => {
     // Activate Bootstrap scrollspy on the main nav element
     const mainNav = document.body.querySelector('#mainNav');

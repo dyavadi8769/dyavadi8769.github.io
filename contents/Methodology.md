@@ -2,6 +2,7 @@
   <img src="static/assets/img/method.jpg" alt="System Workflow Diagram" width="700"/>
 </p>
 
+
 Our proposed system integrates real-time weather analysis, multi-source data fusion, and intelligent routing to enhance emergency response coordination during severe weather events. The core methodology consists of three tightly coupled components: (1) data ingestion and disaster classification, (2) severity assessment and routing logic, and (3) response orchestration with large language model (LLM) support.
 
 #### Multi-Modal Data Ingestion and Classification
@@ -28,3 +29,4 @@ For any validated and actionable event, the system triggers alert notifications 
 
 #### Summary
 Our methodology emphasizes a modular separation of concerns: data ingestion and classification are confined to event identification, severity scoring is handled in a dedicated evaluation module, and orchestration logic is reserved for high-level response formulation. This division enables clarity, extensibility, and real-time performance. By leveraging multi-source data fusion, large language model reasoning, and simulation-driven planning, the system delivers resilient, intelligent, and human-verifiable disaster response recommendations fit for modern emergency coordination.
+

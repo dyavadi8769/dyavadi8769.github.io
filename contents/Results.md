@@ -76,12 +76,15 @@ In a similar real-time run for New Delhi, India, the system successfully aggrega
 
 The quantitative accuracy of the classification was further supported by third-party weather logs (Figure 8), validating model-predicted parameters against ground truth.
 
-<p align="center" style="display: flex; justify-content: center; gap: 20px;">
-  <img src="static/assets/img/delhi.png" alt="Figure 8: New Delhi Low Severity Email" width="340"/>
-  <img src="static/assets/img/weather.png" alt="Figure 9: New Delhi Weather Chart" width="340"/>
+<p align="center">
+  <img src="static/assets/img/delhi.png" alt="Figure 7: New Delhi Low Severity Email" width="700"/>
 </p>
-<p align="center"><em>Figure 8 & 9: Left — Low-severity weather alert for New Delhi; Right — Weather chart confirming mild conditions on April 22, 2025</em></p>
+<p align="center"><em>Figure 8: Low-severity weather alert email for New Delhi with news evidence</em></p>
 
+<p align="center">
+  <img src="static/assets/img/weather.png" alt="Figure 8: New Delhi Weather Chart" width="700"/>
+</p>
+<p align="center"><em>Figure 9: Actual temperature and wind profile from New Delhi (April 22, 2025)</em></p>
 
 #### Simulated High Severity Case Study
 To test high-severity routing without needing real-world events, we injected a synthetic scenario simulating a severe storm in Dallas (Figure 9). The agent inferred a "Severe Storm" label from elevated wind speed (15.2 m/s), 70% humidity, and dense cloud cover, triggering automatic response routing without human verification. The system correctly bypassed manual steps and issued an immediate emergency alert, consistent with our design for rapid disaster escalation.

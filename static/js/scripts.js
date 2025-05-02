@@ -42,7 +42,13 @@ window.addEventListener('DOMContentLoaded', event => {
         .catch(error => console.log(error));
 
     // Render Markdown files into corresponding sections
-    marked.use({ mangle: false, headerIds: false });
+    marked.use({
+        mangle: false,
+        headerIds: false,
+        breaks: true,
+        gfm: true,
+        sanitize: false, // allow raw HTML
+    });
     section_names.forEach(name => {
         fetch(content_dir + name + '.md')
             .then(response => response.text())

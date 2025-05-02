@@ -19,3 +19,4 @@ We assessed the value of incorporating social media signals by comparing model o
 To quantify the trade-offs between automation and oversight, we conducted ablation experiments with and without the human-in-the-loop approval layer. While the removal of human approval reduced end-to-end latency by 12%, it also led to a 17% increase in false-positive alerts, particularly in ambiguous cases such as rumor-driven social media spikes. When approval was retained, expert reviewers were able to correct or delay questionable alerts in 8.5% of cases, enhancing trust and avoiding unnecessary mobilization. These findings underscore the importance of hybrid systems that blend machine efficiency with human judgment, particularly in high-stakes operational environments.
 
 
+

@@ -5,11 +5,12 @@ AI systems that can reason over real-time, multi-source data are increasingly vi
 #### Motivation
 The accelerating frequency and severity of natural disasters underscore a critical vulnerability in our current emergency response infrastructure. Events such as Hurricane Harvey (2017) and the Houston floods (2015) exposed how legacy systems often fragmented and reactive,  fall short in providing timely coordination and actionable insights. These failures are not merely logistical; they carry devastating human and economic costs.
 
-<div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+<div style="display: flex; gap: 20px; overflow-x: auto;">
   <img src="static/assets/img/motive1.png" alt="Image 1" width="300" />
   <img src="static/assets/img/motive2.png" alt="Image 2" width="300" />
   <img src="static/assets/img/motive3.png" alt="Image 3" width="300" />
 </div>
+
 
 
 As climate change continues to intensify weather-related events, traditional disaster management models, which rely heavily on static protocols and delayed communication, are increasingly inadequate. The challenges lie not only in detecting these events but in enabling real-time collaboration across stakeholders, ensuring rapid deployment of resources, and delivering localized, data-driven interventions.

@@ -17,7 +17,10 @@ These systems frequently lack contextual awareness , the ability to interpret ev
 #### Solution
 To address these limitations, we propose a hybrid disaster management framework that combines simulation-driven planning with intelligent, adaptive routing algorithms. By leveraging real-time environmental data and predictive models, our approach anticipates bottlenecks, evaluates alternative response strategies, and dynamically reroutes resources based on emergent conditions.
 
+<p align="center">
+  <img src="static\assets\img\workflow.png" alt="System Workflow Diagram" width="700"/>
+</p>
+
 This system simulates high-risk scenarios under varying parameters to uncover potential system stress points and proactively guides coordination efforts. It employs reinforcement learning and geospatial optimization to recommend optimal evacuation paths, resource allocation strategies, and inter-agency collaboration protocols. Ultimately, our solution transforms reactive emergency response into a proactive, data-informed, and adaptive operation, significantly improving resilience and reducing disaster impact.
 
-![Workflow Diagram](static/assets/img/solution.jpg)
 

@@ -90,3 +90,7 @@ section .main-body {
     margin: 2rem auto;
     text-align: justify;
 }
+
+.main-body p {
+    text-align: justify;
+}

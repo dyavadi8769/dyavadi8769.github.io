@@ -59,12 +59,12 @@ Figure 4 illustrates the interactive control logic presented to the user at runt
 In our real-time trial for College Station, Texas (Figure 5), the system identified a low severity condition under “Clear Sky” weather, with a temperature of 30.9°C and wind speed of 3.9 m/s. Given the low severity threshold, the alert was routed through a human verification loop, prompting the operator for approval before escalation. Upon approval (Figure 6), the system dispatched an alert via SMTP-secured email to the designated stakeholders.
 
 <p align="center">
-  <img src="static/assets/img/monitor.png" alt="Figure 5: Console Weather Monitoring" width="700"/>
+  <img src="static/assets/img/monitor.jpg" alt="Figure 5: Console Weather Monitoring" width="700"/>
 </p>
 <p align="center"><em>Figure 5: Agent execution on College Station showing low-severity weather and verification prompt</em></p>
 
 <p align="center">
-  <img src="static/assets/img/email.png" alt="Figure 6: Email Alert Process" width="700"/>
+  <img src="static/assets/img/email.jpg" alt="Figure 6: Email Alert Process" width="700"/>
 </p>
 <p align="center"><em>Figure 6: Email sent via SSL after human approval for low-severity alert</em></p>
 
@@ -77,12 +77,12 @@ In a similar real-time run for New Delhi, India, the system successfully aggrega
 The quantitative accuracy of the classification was further supported by third-party weather logs (Figure 8), validating model-predicted parameters against ground truth.
 
 <p align="center">
-  <img src="static/assets/img/delhi.png" alt="Figure 7: New Delhi Low Severity Email" width="700"/>
+  <img src="static/assets/img/delhi.jpg" alt="Figure 7: New Delhi Low Severity Email" width="700"/>
 </p>
 <p align="center"><em>Figure 8: Low-severity weather alert email for New Delhi with news evidence</em></p>
 
 <p align="center">
-  <img src="static/assets/img/weather.png" alt="Figure 8: New Delhi Weather Chart" width="700"/>
+  <img src="static/assets/img/weather.jpg" alt="Figure 8: New Delhi Weather Chart" width="700"/>
 </p>
 <p align="center"><em>Figure 9: Actual temperature and wind profile from New Delhi (April 22, 2025)</em></p>
 
@@ -92,7 +92,7 @@ To test high-severity routing without needing real-world events, we injected a s
 This confirms the model's ability to route decision flows based on severity context, balancing agility with prudence. In critical conditions, speed trumps deliberation, and the model demonstrates that distinction effectively.
 
 <p align="center">
-  <img src="static/assets/img/dallas.png" alt="Figure 10: Dallas High Severity Alert" width="700"/>
+  <img src="static/assets/img/dallas.jpg" alt="Figure 10: Dallas High Severity Alert" width="700"/>
 </p>
 <p align="center"><em>Figure 10: Automatically triggered emergency alert for Dallas due to high wind and rain</em></p>
 

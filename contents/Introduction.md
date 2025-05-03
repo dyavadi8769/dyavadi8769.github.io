@@ -29,7 +29,7 @@ To address these limitations, we propose a hybrid disaster management framework 
 <p align="center">
   <img src="static\assets\img\workflow.png" alt="System Workflow Diagram" width="700"/>
 </p>
-<p align="center"><em>Workflow Diagram</em></p>
+
 
 This system simulates high-risk scenarios under varying parameters to uncover potential system stress points and proactively guides coordination efforts. It employs reinforcement learning and geospatial optimization to recommend optimal evacuation paths, resource allocation strategies, and inter-agency collaboration protocols. Ultimately, our solution transforms reactive emergency response into a proactive, data-informed, and adaptive operation, significantly improving resilience and reducing disaster impact.
 

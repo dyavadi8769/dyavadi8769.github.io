@@ -62,7 +62,7 @@ Figure 4 illustrates the interactive control logic presented to the user at runt
 
 #### Human-in-the-Loop Verification in Action
 
-In our real-time trial for College Station, Texas (Figure 5), the system identified a low severity condition under “Clear Sky” weather, with a temperature of 30.9°C and wind speed of 3.9 m/s. Given the low severity threshold, the alert was routed through a human verification loop, prompting the operator for approval before escalation. Upon approval (Figure 6), the system dispatched an alert via SMTP-secured email to the designated stakeholders.
+In our real-time trial for College Station, Texas (Figure 5), the system identified a Medium severity condition under “Heavy Intensity Rain” weather, with a temperature of 18.33°C and wind speed of 8.13 m/s. Given the medium severity threshold, the alert was routed through a human verification loop, prompting the operator for approval before escalation. Upon approval (Figure 6), the system dispatched an alert via SMTP-secured email to the designated stakeholders.
 
 <p align="center">
   <img src="static/assets/img/monitor.jpg" alt="Figure 5: Console Weather Monitoring" width="700"/>
@@ -94,7 +94,7 @@ The quantitative accuracy of the classification was further supported by third-p
 
 #### Simulated High Severity Case Study
 
-To test high-severity routing without needing real-world events, we injected a synthetic scenario simulating a severe storm in Dallas (Figure 9). The agent inferred a "Severe Storm" label from elevated wind speed (15.2 m/s), 70% humidity, and dense cloud cover, triggering automatic response routing without human verification. The system correctly bypassed manual steps and issued an immediate emergency alert, consistent with our design for rapid disaster escalation.
+To test high-severity routing without needing real-world events, we injected a synthetic scenario simulating a severe storm in Dallas (Figure 9). The agent inferred a "Severe thunderStorm with heavy rainfall" label from elevated wind speed (32.5 m/s), 90% humidity, and dense cloud cover, triggering automatic response routing without human verification. The system correctly bypassed manual steps and issued an immediate emergency alert, consistent with our design for rapid disaster escalation.
 
 This confirms the model's ability to route decision flows based on severity context, balancing agility with prudence. In critical conditions, speed trumps deliberation, and the model demonstrates that distinction effectively.
 

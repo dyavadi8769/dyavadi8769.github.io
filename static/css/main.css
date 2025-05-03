@@ -88,4 +88,5 @@ section .main-body {
     height: auto;
     display: block;
     margin: 2rem auto;
+    text-align: justify;
 }

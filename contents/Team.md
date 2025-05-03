@@ -20,9 +20,9 @@
 
 <!-- Member 3 -->
 <div class="text-center my-5">
-  <img src="static/assets/img/team3.jpg" alt="Sirisha NK" class="rounded-circle mb-3" width="160" height="160">
+  <img src="static/assets/img/team3.jpg" alt="Sai Sirisha NK" class="rounded-circle mb-3" width="160" height="160">
   <h5><strong>Sirisha NK</strong></h5>
   <p style="text-align: justify; max-width: 800px; margin: auto;">
-    Sirisha designed the frontend structure and handled real-time social monitoring inputs. Her work ensures that unstructured signals are harmonized into the system’s decision pipeline for disaster detection and alert generation.
+    Sai Sirisha NK is a graduate student at Texas A&M University, pursuing a Master's in Management Information Systems. With a background in software development, experience in data analytics and product management, she is passionate about applying AI to solve real-world business problems. Her interests span generative AI, intelligent automation, and human-centered product design.
   </p>
 </div>

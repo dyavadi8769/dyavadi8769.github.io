@@ -79,12 +79,12 @@ The quantitative accuracy of the classification was further supported by third-p
 <p align="center">
   <img src="static/assets/img/delhi.jpg" alt="Figure 7: New Delhi Low Severity Email" width="700"/>
 </p>
-<p align="center"><em>Figure 8: Low-severity weather alert email for New Delhi with news evidence</em></p>
+<p align="center"><em>Figure 7: Low-severity weather alert email for New Delhi with news evidence</em></p>
 
 <p align="center">
   <img src="static/assets/img/weather.jpg" alt="Figure 8: New Delhi Weather Chart" width="700"/>
 </p>
-<p align="center"><em>Figure 9: Actual temperature and wind profile from New Delhi (April 22, 2025)</em></p>
+<p align="center"><em>Figure 8: Actual temperature and wind profile from New Delhi (April 22, 2025)</em></p>
 
 #### Simulated High Severity Case Study
 To test high-severity routing without needing real-world events, we injected a synthetic scenario simulating a severe storm in Dallas (Figure 9). The agent inferred a "Severe Storm" label from elevated wind speed (15.2 m/s), 70% humidity, and dense cloud cover, triggering automatic response routing without human verification. The system correctly bypassed manual steps and issued an immediate emergency alert, consistent with our design for rapid disaster escalation.
@@ -92,9 +92,9 @@ To test high-severity routing without needing real-world events, we injected a s
 This confirms the model's ability to route decision flows based on severity context, balancing agility with prudence. In critical conditions, speed trumps deliberation, and the model demonstrates that distinction effectively.
 
 <p align="center">
-  <img src="static/assets/img/dallas.jpg" alt="Figure 10: Dallas High Severity Alert" width="700"/>
+  <img src="static/assets/img/dallas.jpg" alt="Figure 9: Dallas High Severity Alert" width="700"/>
 </p>
-<p align="center"><em>Figure 10: Automatically triggered emergency alert for Dallas due to high wind and rain</em></p>
+<p align="center"><em>Figure 9: Automatically triggered emergency alert for Dallas due to high wind and rain</em></p>
 
 #### Summary
 This series of live and simulated tests validates the real-world readiness of our hybrid AI agent. From data ingestion to alert dispatch, the system demonstrates robustness across modalities, interpretability through language model reasoning, and reliability via human-in-the-loop safeguards. Its integration of news signals and quantitative thresholds reflects an architecture designed not just for prediction, but for informed, accountable action.

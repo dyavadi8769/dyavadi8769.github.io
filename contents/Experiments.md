@@ -6,7 +6,7 @@ The disaster classifier achieved a Precision of 0.84, Recall of 0.78, F1-Score o
 #### Simulated Environment
 We deployed the system in a simulated environment containing synthetic weather feeds and agent-based disaster propagation logic. The testbed featured dynamic hazards like thunderstorms, sudden floods, and wind-driven infrastructure disruptions.
 
-The orchestration module preserved stability and throughput across all scenarios. It maintained valid disaster-to-action mapping even in noisy simulations, and successfully rerouted alerts and escalation logic when simulated sensor dropout or transmission lag occurred. The visual outputs—such as temperature RMSE (3.36°C) and wind RMSE (2.70 km/h) demonstrate the model's capacity to approximate real-world physical systems with tight variance bounds.
+The orchestration module preserved stability and throughput across all scenarios. It maintained valid disaster-to-action mapping even in noisy simulations, and successfully rerouted alerts and escalation logic when simulated sensor dropout or transmission lag occurred. The visual outputs such as temperature RMSE (3.36°C) and wind RMSE (2.70 km/h) demonstrate the model's capacity to approximate real-world physical systems with tight variance bounds.
 
 ####  Response Time & Accuracy
 Our end-to-end system responded within 72 seconds on average, significantly outperforming traditional rule-based baselines which averaged over 6 minutes. This represents a 5× improvement in responsiveness.
@@ -21,4 +21,4 @@ Incorporating these signals boosted early detection rates, particularly for fast
 #### Impact of Human Approval
 In our ablation study, disabling the human-in-the-loop (HITL) verification layer marginally reduced latency but introduced significant risk. Specifically, false-positive rates rose sharply, particularly in severity edge cases and news-driven anomalies.
 
-By retaining human validators, the system corrected 8.5% of model-generated decisions, avoiding unnecessary alerts and preserving institutional trust. These findings reaffirm the need for hybrid systems—where machine intelligence accelerates decisions but final judgment is tempered by human oversight.
+By retaining human validators, the system corrected 8.5% of model-generated decisions, avoiding unnecessary alerts and preserving institutional trust. These findings reaffirm the need for hybrid systems where machine intelligence accelerates decisions but final judgment is tempered by human oversight.

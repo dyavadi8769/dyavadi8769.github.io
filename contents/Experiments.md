@@ -14,7 +14,7 @@ Our end-to-end system responded within 72 seconds on average, significantly outp
 Importantly, this reduction in latency did not come at the cost of performance: disaster type and severity assessments remained aligned with human consensus at over 91% agreement. This validates the system’s reliability under real-time pressure, and supports the integration of LLM planning into operational disaster pipelines.
 
 #### Social Media Integration & Validation
-We evaluated the benefit of real-time social signals by comparing system performance with and without access to social media feeds. The LLM leveraged Twitter and news content to refine classifications and infer urgency in rapidly evolving events.
+We evaluated the benefit of real-time social signals by comparing system performance with and without access to social media feeds. The LLM leveraged NewsAPI (news content) to refine classifications and infer urgency in rapidly evolving events.
 
 Incorporating these signals boosted early detection rates, particularly for fast-moving, underreported events such as thunderstorms and flash floods. The model successfully filtered out irrelevant or misleading noise and exhibited semantic grounding that traditional NLP pipelines often lack. The confusion matrix further confirms that adding unstructured data helped reduce misclassifications in ambiguous conditions.
 

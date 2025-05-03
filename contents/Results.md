@@ -47,7 +47,7 @@ To validate the operational fidelity of our hybrid AI agent, we executed end-to-
 Interactive Execution and Control Logic
 
 <p align="center">
-  <img src="static/assets/img/code.jpg" alt="Figure 4: Agent Execution Code" width="700"/>
+  <img src="static/assets/img/code1.jpg" alt="Figure 4: Agent Execution Code" width="700"/>
 </p>
 <p align="center"><em>Figure 4: Core agent code that runs periodic monitoring and conditional email alerts</em></p>
 

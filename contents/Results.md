@@ -2,7 +2,10 @@ Reliable estimation of key meteorological variables is essential for downstream 
 
 #### Temperature Prediction (RMSE = 3.36°C)
 
-<p align="center"> <img src="static/assets/img/temp.png" alt="Figure 1: True vs Predicted Temperature" width="600"/><br> <b>Figure 1: True vs Predicted Temperature</b> </p>
+<div align="center">
+  <img src="static/assets/img/temp.png" alt="Figure 1: True vs Predicted Temperature" width="600"/>
+  <p style="font-size: 0.9em;"><b>Figure 1:</b> True vs Predicted Temperature</p>
+</div>
 
 In Figure 1, the model demonstrates a strong correlation between predicted and true temperature values, with a Root Mean Square Error (RMSE) of 3.36°C. The regression line closely follows the ideal fit, indicating that the model successfully captures thermal dynamics even under moderate environmental noise. Slight deviations at the extremities suggest a need for broader calibration across high-variance urban microclimates.
 

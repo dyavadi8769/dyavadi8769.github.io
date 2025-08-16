@@ -5,7 +5,7 @@
   <img src="static/assets/img/team1.jpg" alt="Sai Kiran Reddy" class="rounded-circle mb-3" width="160" height="160">
   <h5><strong>Sai Kiran Reddy Dyavadi</strong></h5>
   <p style="text-align: justify; max-width: 800px; margin: auto;">
-    Sai Kiran Reddy Dyavadi is a Data Scientist and AWS Certified Solutions Architect with 3+ years of experience in data analytics, machine learning, and cloud-based deployments. He holds a Master’s in Management Information Systems from Texas A&M University and has worked with institutions like American Express and Texas A&M Engineering Experiment Station. His work focuses on building intelligent, scalable systems that combine real-time analytics, AI planning, and decision support in high-stakes environments.
+    Sai Kiran Reddy Dyavadi is a Software Engineer and AWS Certified Solutions Architect with 3+ years of experience in Backend, Building Microservices, API Develoment, Machine Learning, and Cloud-Based Deployments. He holds a Master’s in Management Information Systems from Texas A&M University and has worked with institutions like American Express and Texas A&M Engineering Experiment Station. His work focuses on building intelligent, scalable systems that combine real-time analytics, AI planning, and decision support in high-stakes environments.
   </p>
 </div>
 
